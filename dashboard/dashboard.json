@@ -1,0 +1,222 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1",
+      "creationTime": 1481984800106,
+      "description": "",
+      "disabled": false,
+      "id": "89c7603a-f0d6-458c-aea6-3a14fc53a48b",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "vSphere Replication",
+      "rank": 93,
+      "shared": false,
+      "temporary": false,
+      "userId": "e13e847c-9ccf-4604-926f-24075fd6cd13",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "2065dd2a-9bb8-4417-b9b6-b7e77536e924",
+            "widgetIdReceiver": "9711808f-d56f-4bef-9158-841df6245b79"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "2065dd2a-9bb8-4417-b9b6-b7e77536e924",
+            "widgetIdReceiver": "c63ff1cb-8b9f-44c2-8976-1011310a7fda"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "filterMode": {"filterMode": "resource"},
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resourceKind": null,
+               "resources": [
+                  {
+                     "id": "extModel3404-1",
+                     "resourceId": "resource:id:0_::_",
+                     "resourceName": "192.168.1.4"
+                  },
+                  {
+                     "id": "extModel3404-2",
+                     "resourceId": "resource:id:1_::_",
+                     "resourceName": "192.168.1.5"
+                  },
+                  {
+                     "id": "extModel3404-3",
+                     "resourceId": "resource:id:2_::_",
+                     "resourceName": "192.168.1.6"
+                  }
+               ],
+               "title": "Hosts"
+            },
+            "gridsterCoords": {
+               "h": 10,
+               "w": 1,
+               "x": 1,
+               "y": 1
+            },
+            "height": 350,
+            "id": "2065dd2a-9bb8-4417-b9b6-b7e77536e924",
+            "states": [{
+               "key": "permContainerGrid_widget_89c7603a-f0d6-458c-aea6-3a14fc53a48b_2065dd2a-9bb8-4417-b9b6-b7e77536e924",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A107%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ewidth%25253Dn%2525253A42.11111%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ewidth%25253Dn%2525253A49%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ewidth%25253Dn%2525253A40%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AmetricValue_%252525253A%252525253A_badge%252525257Cefficiency%2525255Edirection%2525253Ds%252525253ADESC"
+            }],
+            "title": "Hosts",
+            "type": "ContainerOverview"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "impactedBadge": "",
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 30,
+               "selfProvider": {"selfProvider": false},
+               "title": "Top Alerts",
+               "topIssuesDisplayLimit": 5,
+               "triggeredObject": {"triggeredObject": "selfChildren"}
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 6,
+               "x": 1,
+               "y": 11
+            },
+            "height": 133,
+            "id": "9711808f-d56f-4bef-9158-841df6245b79",
+            "title": "Top Alerts",
+            "type": "ProblemAlertsList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "labelSize": 12,
+               "metric": {
+                  "mode": "resource",
+                  "resourceKindMetrics": [],
+                  "resourceMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5300-1",
+                        "isStringMetric": false,
+                        "metricKey": "hbr|hbrNumVms_average",
+                        "metricName": "vSphere Replication|Replicated VM Count",
+                        "metricUnitId": null,
+                        "resourceId": "resource:id:0_::_",
+                        "resourceKindId": "002006VMWAREHostSystem",
+                        "resourceName": "192.168.1.4",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5300-2",
+                        "isStringMetric": false,
+                        "metricKey": "hbr|hbrNetRx_average",
+                        "metricName": "vSphere Replication|Replication Data Received Rate",
+                        "metricUnitId": null,
+                        "resourceId": "resource:id:0_::_",
+                        "resourceKindId": "002006VMWAREHostSystem",
+                        "resourceName": "192.168.1.4",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5300-3",
+                        "isStringMetric": false,
+                        "metricKey": "hbr|hbrNetTx_average",
+                        "metricName": "vSphere Replication|Replication Data Transmitted Rate",
+                        "metricUnitId": null,
+                        "resourceId": "resource:id:0_::_",
+                        "resourceKindId": "002006VMWAREHostSystem",
+                        "resourceName": "192.168.1.4",
+                        "unit": null
+                     }
+                  ]
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "lastHour",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resInteractionMode": "replication.xml",
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": true},
+               "showSparkline": {"showSparkline": true},
+               "title": "Replication Status",
+               "valueSize": 24,
+               "visualTheme": 1
+            },
+            "gridsterCoords": {
+               "h": 10,
+               "w": 5,
+               "x": 2,
+               "y": 1
+            },
+            "height": 350,
+            "id": "c63ff1cb-8b9f-44c2-8976-1011310a7fda",
+            "title": "Replication Status",
+            "type": "Scoreboard"
+         }
+      ]
+   }],
+   "entries": {"resource": [
+      {
+         "adapterKindKey": "VMWARE",
+         "identifiers": [
+            {
+               "key": "VMEntityObjectID",
+               "value": "host-10"
+            },
+            {
+               "key": "VMEntityVCID",
+               "value": "5b498a94-5288-4533-bd38-23a7ff8bf783"
+            }
+         ],
+         "internalId": "resource:id:2_::_",
+         "name": "192.168.1.6",
+         "resourceKindKey": "HostSystem"
+      },
+      {
+         "adapterKindKey": "VMWARE",
+         "identifiers": [
+            {
+               "key": "VMEntityObjectID",
+               "value": "host-9"
+            },
+            {
+               "key": "VMEntityVCID",
+               "value": "30acdf82-cfb7-4bb6-8422-47010e203982"
+            }
+         ],
+         "internalId": "resource:id:0_::_",
+         "name": "192.168.1.4",
+         "resourceKindKey": "HostSystem"
+      },
+      {
+         "adapterKindKey": "VMWARE",
+         "identifiers": [
+            {
+               "key": "VMEntityObjectID",
+               "value": "host-11"
+            },
+            {
+               "key": "VMEntityVCID",
+               "value": "5b498a94-5288-4533-bd38-23a7ff8bf783"
+            }
+         ],
+         "internalId": "resource:id:1_::_",
+         "name": "192.168.1.5",
+         "resourceKindKey": "HostSystem"
+      }
+   ]},
+   "uuid": "66d05262-93ef-42ca-8499-f62e514efe33"
+}
